@@ -1,1 +1,4 @@
 .env
+language_processor/__pycache__
+language_processor/__pycache__/*
+

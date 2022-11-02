@@ -1,5 +1,5 @@
 language_mapping = {
-    "ca": "ca_core_news_tf",
+    "ca": "ca_core_news_trf",
     "hr": "hr_core_news_lg",
     "da": "da_core_news_trf",
     "nl": "nl_core_news_lg",
@@ -11,7 +11,7 @@ language_mapping = {
     "it": "it_core_news_lg",
     "lt": "lt_core_news_lg",
     "mk": "mk_core_news_lg",
-    "xx": "xx_sent_ud_sm",
+    "xx": "xx_ent_wiki_sm",
     "nb": "nb_core_news_lg",
     "pl": "pl_core_news_lg",
     "pt": "pt_core_news_lg",
