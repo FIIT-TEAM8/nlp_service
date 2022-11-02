@@ -1,5 +1,7 @@
 import json
-from flask import Flask, request, jsonify
+
+from flask import Flask, jsonify, request
+
 from language_processor.languageprocessor import LanguageProcessor
 
 app = Flask(__name__)
