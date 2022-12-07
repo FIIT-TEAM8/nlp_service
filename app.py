@@ -7,7 +7,6 @@ from language_processor.languageprocessor import LanguageProcessor
 app = Flask(__name__)
 language_processor = LanguageProcessor()
 
-
 @app.route('/')
 def hello_world():  # put application's code here
     return 'Hello World!'
