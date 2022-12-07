@@ -1,0 +1,147 @@
+------------------------------------------------
+language ca
+total time 13.732655749999594
+cold start time 8.533090768999955
+warm start time 5.199564980999639
+('LOC', 'MISC', 'ORG', 'PER')
+.
+------------------------------------------------
+language hr
+total time 0.5863877560000219
+cold start time 0.5019452710002952
+warm start time 0.08444248499972673
+('DERIV_PER', 'LOC', 'MISC', 'ORG', 'PER')
+.
+------------------------------------------------
+language da
+total time 10.408322575000057
+cold start time 6.3519672190000165
+warm start time 4.05635535600004
+('LOC', 'MISC', 'ORG', 'PER')
+.
+------------------------------------------------
+language nl
+total time 2.280861036999795
+cold start time 2.2149727480000365
+warm start time 0.06588828899975852
+('CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART')
+.
+------------------------------------------------
+language en
+total time 11.584595261999766
+cold start time 6.9965939399999115
+warm start time 4.5880013219998546
+('CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART')
+.
+------------------------------------------------
+language fi
+total time 0.8228502820002177
+cold start time 0.7362824980000369
+warm start time 0.08656778400018084
+('CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART')
+.
+------------------------------------------------
+language fr
+total time 4.123066568000013
+cold start time 4.0596675090000645
+warm start time 0.06339905899994847
+('LOC', 'MISC', 'ORG', 'PER')
+.
+------------------------------------------------
+language de
+total time 1.9698387640000874
+cold start time 1.9013933349997387
+warm start time 0.06844542900034867
+('LOC', 'MISC', 'ORG', 'PER')
+.
+------------------------------------------------
+language el
+total time 1.5467093349998322
+cold start time 1.4797946150001735
+warm start time 0.0669147199996587
+('EVENT', 'GPE', 'LOC', 'ORG', 'PERSON', 'PRODUCT')
+.
+------------------------------------------------
+language it
+total time 1.4169351289997394
+cold start time 1.3554597649999778
+warm start time 0.06147536399976161
+('LOC', 'MISC', 'ORG', 'PER')
+.
+------------------------------------------------
+language lt
+total time 12.661067259999982
+cold start time 12.593791725000301
+warm start time 0.06727553499968053
+('GPE', 'LOC', 'ORG', 'PERSON', 'PRODUCT', 'TIME')
+.
+------------------------------------------------
+language mk
+total time 0.9769269700000223
+cold start time 0.8911145709998891
+warm start time 0.08581239900013315
+('CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART')
+.
+------------------------------------------------
+language xx
+total time 0.05804502799992406
+cold start time 0.03504140999984884
+warm start time 0.02300361800007522
+('LOC', 'MISC', 'ORG', 'PER')
+.
+------------------------------------------------
+language nb
+total time 1.308418848999736
+cold start time 1.2455899920000775
+warm start time 0.06282885699965846
+('DRV', 'EVT', 'GPE_LOC', 'GPE_ORG', 'LOC', 'MISC', 'ORG', 'PER', 'PROD')
+.
+------------------------------------------------
+language pl
+total time 1.5594601820002936
+cold start time 1.462919262000014
+warm start time 0.09654092000027958
+('date', 'geogName', 'orgName', 'persName', 'placeName', 'time')
+.
+------------------------------------------------
+language pt
+total time 1.2924876560000484
+cold start time 1.2265943520001201
+warm start time 0.06589330399992832
+('LOC', 'MISC', 'ORG', 'PER')
+.
+------------------------------------------------
+language ro
+total time 1.4767659990002358
+cold start time 1.4025861350000923
+warm start time 0.07417986400014343
+('DATETIME', 'EVENT', 'FACILITY', 'GPE', 'LANGUAGE', 'LOC', 'MONEY', 'NAT_REL_POL', 'NUMERIC_VALUE', 'ORDINAL', 'ORGANIZATION', 'PERIOD', 'PERSON', 'PRODUCT', 'QUANTITY', 'WORK_OF_ART')
+.
+------------------------------------------------
+language ru
+total time 1.915266001999953
+cold start time 1.8496845660001782
+warm start time 0.06558143599977484
+('LOC', 'ORG', 'PER')
+.
+------------------------------------------------
+language es
+total time 1.370063692000258
+cold start time 1.3093996080001489
+warm start time 0.06066408400010914
+('LOC', 'MISC', 'ORG', 'PER')
+.
+------------------------------------------------
+language sv
+total time 0.7900908960000379
+cold start time 0.7131932779998351
+warm start time 0.07689761800020278
+('EVN', 'LOC', 'MSR', 'OBJ', 'ORG', 'PRS', 'TME', 'WRK')
+.
+------------------------------------------------
+language uk
+total time 11.176627967999593
+cold start time 6.700755479999771
+warm start time 4.475872487999823
+('LOC', 'ORG', 'PER')
+.

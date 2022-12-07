@@ -1,0 +1,42 @@
+ ca 
+('LOC', 'MISC', 'ORG', 'PER')
+ hr 
+('DERIV_PER', 'LOC', 'MISC', 'ORG', 'PER')
+ da 
+('LOC', 'MISC', 'ORG', 'PER')
+ nl 
+('CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART')
+ en 
+('CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART')
+ fi 
+('CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART')
+ fr 
+('LOC', 'MISC', 'ORG', 'PER')
+ de 
+('LOC', 'MISC', 'ORG', 'PER')
+ el 
+('EVENT', 'GPE', 'LOC', 'ORG', 'PERSON', 'PRODUCT')
+ it 
+('LOC', 'MISC', 'ORG', 'PER')
+ lt 
+('GPE', 'LOC', 'ORG', 'PERSON', 'PRODUCT', 'TIME')
+ mk 
+('CARDINAL', 'DATE', 'EVENT', 'FAC', 'GPE', 'LANGUAGE', 'LAW', 'LOC', 'MONEY', 'NORP', 'ORDINAL', 'ORG', 'PERCENT', 'PERSON', 'PRODUCT', 'QUANTITY', 'TIME', 'WORK_OF_ART')
+ xx 
+('LOC', 'MISC', 'ORG', 'PER')
+ nb 
+('DRV', 'EVT', 'GPE_LOC', 'GPE_ORG', 'LOC', 'MISC', 'ORG', 'PER', 'PROD')
+ pl 
+('date', 'geogName', 'orgName', 'persName', 'placeName', 'time')
+ pt 
+('LOC', 'MISC', 'ORG', 'PER')
+ ro 
+('DATETIME', 'EVENT', 'FACILITY', 'GPE', 'LANGUAGE', 'LOC', 'MONEY', 'NAT_REL_POL', 'NUMERIC_VALUE', 'ORDINAL', 'ORGANIZATION', 'PERIOD', 'PERSON', 'PRODUCT', 'QUANTITY', 'WORK_OF_ART')
+ ru 
+('LOC', 'ORG', 'PER')
+ es 
+('LOC', 'MISC', 'ORG', 'PER')
+ sv 
+('EVN', 'LOC', 'MSR', 'OBJ', 'ORG', 'PRS', 'TME', 'WRK')
+ uk 
+('LOC', 'ORG', 'PER')

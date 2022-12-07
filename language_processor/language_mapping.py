@@ -17,7 +17,7 @@ language_mapping = {
     "pt": "pt_core_news_lg",
     "ro": "ro_core_news_lg",
     "ru": "ru_core_news_lg",
-    "es": "es_dep_news_trf",
+    "es": "es_core_news_lg",
     "sv": "sv_core_news_lg",
     "uk": "uk_core_news_trf",
 }
