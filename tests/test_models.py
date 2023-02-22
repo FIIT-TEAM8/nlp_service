@@ -30,6 +30,7 @@ def test_running_analysis(language):
         print("total time", total_time)
         print("cold start time", cold_start_time)
         print("warm start time", warm_start_time)
+        print(output)
         print(lp.get_model_entity_labels(language=language))
         lp.release_model(language=language)
         

@@ -3,6 +3,7 @@ import string
 import spacy
 
 from language_processor.language_mapping import language_mapping
+from collections import Counter
 
 
 class LanguageProcessor:
@@ -56,13 +57,26 @@ class LanguageProcessor:
         if language not in language_mapping:
             language = self.default_language
         doc = self.models[language](text=text)
-        entities = []
-        ent_types = set()
-        for entity in doc.ents:
-            ent_types.add(entity.label_)
-            entities.append({entity.text: entity.label_})
         
-        return entities
+        return self.sort_to_bins(doc.ents)
 
-    def sort_to_bins(self, entities: dict):
-        pass
+    def sort_to_bins(self, entities: list):
+        result_dict: dict = {"PER": Counter([]), "LOC": Counter([]), "ORG": Counter([]), "MISC": Counter([])}
+        PER_tags = ["PER", "DERIV_PER", "PERSON", "persName", "PRS"]
+        ORG_tags = ["ORG", "PRODUCT", "EVENT", "GPE_ORG", "orgName", "FACILITY", "ORGANIZATION"]
+        LOC_tags = ["LOC", "LANGUAGE", "GPE_LOC", "geogName", "placeName"]
+
+        for entity in entities:
+            if entity.label_ in PER_tags:
+                result_dict["PER"].update([entity.text])
+                continue
+            if entity.label_ in ORG_tags:
+                result_dict["ORG"].update([entity.text])
+                continue
+            if entity.label_ in LOC_tags:
+                result_dict["LOC"].update([entity.text])
+                continue
+            else:
+                result_dict["MISC"].update([entity.text])
+
+        return result_dict
